@@ -15,5 +15,4 @@ attr_accessor :word
     array 
       end 
   end 
-  
 end 
