@@ -10,7 +10,7 @@ attr_accessor :word
     array=[]
       str.each do |value|
         if value.split('').sort == @word.split('').sort 
-      array << value 
+          array << value 
         end 
     array 
       end 
