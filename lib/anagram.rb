@@ -12,7 +12,7 @@ attr_accessor :word
         if value.split('').sort == @word.split('').sort 
           array << value 
         end 
-    array 
       end 
+      array
   end 
 end 
